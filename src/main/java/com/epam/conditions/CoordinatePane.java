@@ -5,15 +5,15 @@ public class CoordinatePane {
     public void printQuadrant(int x, int y) {
         String quadrant = "";
         if (x > 0 && y > 0) {
-            quadrant = "First";
+            quadrant = "first";
         } else if (x < 0 && y > 0) {
-            quadrant = "Second";
+            quadrant = "second";
         } else if (x < 0 && y < 0) {
-            quadrant = "Third";
+            quadrant = "third";
         } else if (x > 0 && y < 0) {
-            quadrant = "Fourth";
+            quadrant = "fourth";
         } else {
-            quadrant = "Zero";
+            quadrant = "zero";
         }
         System.out.println(quadrant);
     }
